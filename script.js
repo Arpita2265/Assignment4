@@ -111,3 +111,6 @@ function sendMail() {
     document.querySelector(".successful").style.visibility = "hidden";
 });
 }
+
+
+
