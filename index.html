@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundry Services Hero Section</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <!-- <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "rkwsd3pNY8vaPpXTk",
+            });
+        })();
+    </script> -->
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="nav-logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUWhV-Y2zlbUy82aXkpUhdadNK11sM7JZZA&s"
+                alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUWhV-Y2zlbUy82aXkpUhdadNK11sM7JZZA&s" />
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <span class="username">Username</span>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>
+                    Revitalize Your Clothing With Expert <span> Laundry Services</span>
+                </h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod,
+                    voluptas? Enim sed reprehenderit adipisci beatae rem nihil, fugiat
+                    maiores laboriosam cumque!
+                </p>
+                <div class="button">
+                    <a href="#booking-services" class="btn btn-primary">
+                        <ion-icon class="small-icon" name="laptop-outline"></ion-icon>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book a service today</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img width="400vh"
+                    src="https://static.vecteezy.com/system/resources/previews/043/535/402/non_2x/laundry-machine-with-washing-clothing-and-linen-illustration-flat-cartoon-style-washer-with-baskets-of-linen-and-detergent-concept-of-domestic-housework-service-clipart-vector.jpg"
+                    alt="https://static.vecteezy.com/system/resources/previews/043/535/402/non_2x/laundry-machine-with-washing-clothing-and-linen-illustration-flat-cartoon-style-washer-with-baskets-of-linen-and-detergent-concept-of-domestic-housework-service-clipart-vector.jpg" />
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <section class="achievements">
+        <div class="achieve-container">
+            <h3>Our Achivements</h3>
+
+            <div class="achieve-item">
+
+                <h4>15+</h4>
+                <p>Laundry Services</p>
+            </div>
+            <div class="achive-item">
+
+                <h4>240+</h4>
+                <p>Happy Customers</p>
+            </div>
+            <div class="achive-item">
+
+                <h4>2+ Yrs</h4>
+                <p>Experience</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <div class="container-booking" id="services">
+
+        <section class="booking-services" id="booking-services">
+            <div class="left-container">
+
+
+                <div class="services">
+                    <div class="services-heading">
+                        <h3>Our Services</h3>
+                        <p>Click On The Add To Cart Button To Add The Services To Your Cart</p>
+                    </div>
+                    <!--Dry cleaning-->
+
+                    <div class="service-item" id="drycleaning">
+                        <div class="service-info"> <span>👕 Dry Cleaning</span> - <span
+                                class="service-price">₹200.00</span>
+                        </div>
+                        <button id="add-btn" data-name="Dry Cleaning" data-price="200.00" class="add-btn">Add
+                            Item&nbsp;<ion-icon class="icon" name="add-circle-outline"></ion-icon></button>
+                    </div>
+                    <!--Wash & Fold-->
+
+                    <div class="service-item">
+                        <div class="service-info"><img width="15" height="18"
+                                src="https://img.icons8.com/external-filled-outline-design-circle/64/external-Folded-Clothes-laundry-filled-outline-design-circle.png"
+                                alt="external-Folded-Clothes-laundry-filled-outline-design-circle" /> <span>Wash &
+                                Fold</span> - <span class="service-price">₹100.00</span>
+                        </div>
+                        <button id="add-btn" class="add-btn" data-name="Wash & Fold" data-price="100.00">Add
+                            Item&nbsp;<ion-icon class="icon" name="add-circle-outline"></ion-icon></button>
+                    </div>
+
+                    <!--Ironing-->
+
+                    <div class="service-item">
+                        <div class="service-info"><img width="18" height="18"
+                                src="https://img.icons8.com/color/48/iron.png" alt="iron" /> <span>Ironing</span> -
+                            <span class="service-price">₹30.00</span>
+                        </div>
+                        <button id="add-btn" class="add-btn" data-name="Ironing" data-price="30.00">Add
+                            Item&nbsp;<ion-icon class="icon" name="add-circle-outline"></ion-icon></button>
+                    </div>
+                    <!--Stain Removal-->
+
+                    <div class="service-item">
+                        <div class="service-info" id="service">🫟 <span>Stain Removal</span> - <span
+                                class="service-price">₹500.00</span>
+                        </div>
+                        <button id="add-btn" class="add-btn" data-name="Stain Removal" data-price="500.00">Add
+                            Item&nbsp;<ion-icon class="icon" name="add-circle-outline"></ion-icon></button>
+                    </div>
+
+                    <!--Leather & Suede Cleaning-->
+
+                    <div class="service-item">
+                        <div class="service-info">🧥 <span>Leather & Suede Cleaning</span> - <span
+                                class="service-price">₹999.00</span></div>
+                        <button id="add-btn" class="add-btn" data-name="Leather & Suede Cleaning"
+                            data-price="999.00">Add
+                            Item&nbsp;<ion-icon class="icon" name="add-circle-outline"></ion-icon></button>
+                    </div>
+
+                    <!--Wedding Dress Cleaning-->
+
+
+                    <div class="service-item">
+                        <div class="service-info">👗 <span>Wedding Dress Cleaning</span> - <span
+                                class="service-price">₹2800.00</span></div>
+                        <button id="add-btn" class="add-btn" data-name="Wedding Dress Cleaning" data-price="2800.00">Add
+                            Item&nbsp;<ion-icon class="icon" name="add-circle-outline"></ion-icon></button>
+                    </div>
+
+
+                    <div class="note">
+                        <ion-icon class="icon" name="alert-circle-outline"></ion-icon> &nbsp;Add the items to the cart
+                        and book now
+                    </div>
+                </div>
+
+        </section>
+
+
+
+        <section class="right-container">
+            <div class="cart">
+                <div class="first">
+                    <h3>Added item</h3>
+
+                    <div class="table">
+                        <table class="cart-table" id="cartTable">
+
+                            <thead class="table-head">
+                                <tr>
+                                    <th>S. No.</th>
+                                    <th>Service Name</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cart-items">
+
+
+
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="emptyCart">
+                        <ion-icon class="alert-icon" style="font-size: 40px;" name="alert-circle-outline"></ion-icon>
+                        <h4>Your cart is empty</h4>
+                        <span>Add items to the cart from the services bar</span>
+                    </div>
+
+
+
+
+
+
+
+                    <h4>Total Amount <span id="totalamount">₹0
+                </div> </span></h4>
+            </div>
+    </div>
+
+
+    <div class="bookNow">
+        <h3>Book Now</h3>
+
+        <form action="#" method="post" class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required />
+            <label for="email">Email Id</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required />
+            <label for="tel">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+
+        </form>
+
+        <button type="submit" class="btn book-btn" id="button" onclick="sendMail()">Book
+            Now</button>
+        <div class="successful">
+
+            <ion-icon class="icon" name="alert-circle-outline"></ion-icon> &nbsp; Mail sent Successfully
+        </div>
+
+<div class="unsuccessful">
+
+ <ion-icon class="icon" name="alert-circle-outline"></ion-icon> &nbsp;Error, please try again later
+                    </div>
+
+
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+    </section>
+    </div>
+    <div class="container">
+        <section class="features">
+            <div class="service-features">
+                <div class="premium-services">
+                    <video width="30" preload="none"
+                        style="background: transparent  url('https://cdn-icons-png.flaticon.com/512/16677/16677922.png') 50% 50% / fit no-repeat;"
+                        autoplay="autoplay" loop="true" muted="muted" playsinline="">
+                        <source src="https://cdn-icons-mp4.flaticon.com/512/16677/16677922.mp4" type="video/mp4">
+                    </video>
+                    <h3>Premium Services</h3>
+                    <p>Elevate your wardrobe with our meticulous dry cleaning, ensuring garments look and feel as good
+                        as
+                        new</p>
+
+                </div>
+                <div class="quick-support">
+                    <video width="30" preload="none"
+                        style="background: transparent  url('https://cdn-icons-png.flaticon.com/512/6172/6172517.png') 50% 50% / fit no-repeat;"
+                        autoplay="autoplay" loop="true" muted="muted" playsinline="">
+                        <source src="https://cdn-icons-mp4.flaticon.com/512/6172/6172517.mp4" type="video/mp4">
+                    </video>
+                    <h3>Quick Support</h3>
+
+                    <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry free
+                    </p>
+                </div>
+
+
+                <div class="delivery">
+
+
+                    <video width="30" preload="none"
+                        style="background: transparent  url('https://cdn-icons-png.flaticon.com/512/15309/15309761.png') 50% 50% / fit no-repeat;"
+                        autoplay="autoplay" loop="true" muted="muted" playsinline="">
+                        <source src="https://cdn-icons-mp4.flaticon.com/512/15309/15309761.mp4" type="video/mp4">
+                    </video>
+                    <h3>Hassle Free Delivery</h3>
+                    <p>Enjoy seamless service with our convenient pickup and delivery options, tailored to schedule.</p>
+                </div>
+                <div class="affordable-price">
+                    <video width="30" preload="none"
+                        style="background: transparent  url('https://cdn-icons-png.flaticon.com/512/15309/15309761.png') 50% 50% / fit no-repeat;"
+                        autoplay="autoplay" loop="true" muted="muted" playsinline="">
+                        <source src="https://cdn-icons-mp4.flaticon.com/512/12707/12707657.mp4" type="video/mp4">
+                    </video>
+                    <h3>Affordable Price</h3>
+                    <p>Experience exceptional care and without breaking the bank &mdash; our affordable prices make
+                        laundry
+                        day stress-free</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+    <div class="subscribe-container"></div>
+    <section class="subscribe">
+        <h3>Subscribe to our newsletter</h3>
+
+        <form action="#" method="post">
+            <input type="text" placeholder="Full name" required />
+            <input type="email" name="email" id="email" placeholder="Email" required />
+        </form>
+        <button type="submit" class="btn btn-subs">Subscribe</button>
+    </section>
+
+
+    </div>
+
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="AboutUs" id="about">
+                <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUWhV-Y2zlbUy82aXkpUhdadNK11sM7JZZA&s"
+                        alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUWhV-Y2zlbUy82aXkpUhdadNK11sM7JZZA&s" />
+                </div>
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
+            <div class="important-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="Contact" id="contact">
+                <h3>Contact</h3>
+                <p>mail@site.com</p>
+                <p>+91 9876543210</p>
+
+            </div>
+            <div class="follow">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+
+                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Laundry Services. All rights reserved.</p>
+                </div>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "rkwsd3pNY8vaPpXTk",
+            });
+        })();
+    </script>
+</body>
+
+</html>
